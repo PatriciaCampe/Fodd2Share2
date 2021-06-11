@@ -1,0 +1,14 @@
+﻿@model Food2Share2.ServiceLayor.ViewModels.AddRestaurantViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Welcome, add restaurant</h1>
+</div>
+
+<form asp-controller="Restaurant" asp-action="Create" method="post">
+    <label asp-for="Name">Name: </label>
+    <input asp-for="Name"/>
+
+    <button type="submit">Submit</button>
+</form>
+
+
