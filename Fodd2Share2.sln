@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fodd2Share2", "Fodd2Share2\Fodd2Share2.csproj", "{0284F32C-FFDF-4B45-BBD3-9EBCB3F0D5C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Domain", "10. Domain", "{17EA8CAE-0D7E-4393-BBFB-815D5349FD6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Repository", "20. Repository", "{301E1935-6C29-4F26-820E-BD141E2D6B39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 ServiceLayor", "30 ServiceLayor", "{4522993A-91AC-4CC7-B3A9-4193FB3514A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40. WebLayor", "40. WebLayor", "{E8320CF1-92E5-46D0-A5F1-2F0FD9052A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food2Share2.Domain", "Food2Share2.Domain\Food2Share2.Domain.csproj", "{D604A6DB-FAA0-4B69-97C2-8F4DC5D42580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food2Share2.Repository", "Food2Share2.Repository\Food2Share2.Repository.csproj", "{3DB04475-755A-4C30-8E36-9692735739FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food2Share2.ServiceLayor", "Food2Share2.ServiceLayor\Food2Share2.ServiceLayor.csproj", "{42FF2CFA-3DAD-4465-953F-A536B0C353EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0284F32C-FFDF-4B45-BBD3-9EBCB3F0D5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0284F32C-FFDF-4B45-BBD3-9EBCB3F0D5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0284F32C-FFDF-4B45-BBD3-9EBCB3F0D5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0284F32C-FFDF-4B45-BBD3-9EBCB3F0D5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D604A6DB-FAA0-4B69-97C2-8F4DC5D42580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D604A6DB-FAA0-4B69-97C2-8F4DC5D42580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D604A6DB-FAA0-4B69-97C2-8F4DC5D42580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D604A6DB-FAA0-4B69-97C2-8F4DC5D42580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB04475-755A-4C30-8E36-9692735739FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB04475-755A-4C30-8E36-9692735739FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB04475-755A-4C30-8E36-9692735739FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB04475-755A-4C30-8E36-9692735739FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FF2CFA-3DAD-4465-953F-A536B0C353EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FF2CFA-3DAD-4465-953F-A536B0C353EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FF2CFA-3DAD-4465-953F-A536B0C353EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FF2CFA-3DAD-4465-953F-A536B0C353EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0284F32C-FFDF-4B45-BBD3-9EBCB3F0D5C9} = {E8320CF1-92E5-46D0-A5F1-2F0FD9052A79}
+		{D604A6DB-FAA0-4B69-97C2-8F4DC5D42580} = {17EA8CAE-0D7E-4393-BBFB-815D5349FD6F}
+		{3DB04475-755A-4C30-8E36-9692735739FF} = {301E1935-6C29-4F26-820E-BD141E2D6B39}
+		{42FF2CFA-3DAD-4465-953F-A536B0C353EA} = {4522993A-91AC-4CC7-B3A9-4193FB3514A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B023A706-FF75-4CBC-B75F-E02E416DCFA7}
+	EndGlobalSection
+EndGlobal

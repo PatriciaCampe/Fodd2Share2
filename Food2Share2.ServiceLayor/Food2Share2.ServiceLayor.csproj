@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Food2Share2.Domain\Food2Share2.Domain.csproj" />
+    <ProjectReference Include="..\Food2Share2.Repository\Food2Share2.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
